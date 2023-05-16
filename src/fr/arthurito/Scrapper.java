@@ -35,7 +35,7 @@ public class Scrapper {
             Elements elements = document.select("div.item");
 
             StringBuilder htmlContent = new StringBuilder();
-            htmlContent.append("<html><head><title>Données Scrapées</title><meta charset=\"UTF-8\">");
+            htmlContent.append("<html><head><title>Scrapper Instant Gaming</title><meta charset=\"UTF-8\">");
             htmlContent.append("<style>");
             htmlContent.append("body {");
             htmlContent.append("font-family: Arial, sans-serif;");
